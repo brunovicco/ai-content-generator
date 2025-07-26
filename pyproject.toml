@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-content-generator"
+version = "1.0.0"
+description = "15-Factor AI Content Generator using OpenAI and Datadog"
+authors = [{name = "Development Team", email = "dev@company.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.dependencies]
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0"
+pydantic = "^2.5.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 100
