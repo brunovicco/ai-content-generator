@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
+![Docker](https://img.shields.io/badge/docker-ready-blue.svg)
+![Kubernetes](https://img.shields.io/badge/kubernetes-ready-blue.svg)
+![Datadog](https://img.shields.io/badge/observability-datadog-purple.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # 🚀 AI Content Generator - 15-Factor App with Datadog
 
 A complete implementation of the **15-Factor App** methodology using Python, FastAPI, OpenAI API, and **enterprise-grade observability with Datadog**.
